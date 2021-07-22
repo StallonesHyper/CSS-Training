@@ -1,0 +1,210 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Landing Page */
+
+.LandingHeader {
+  background-image: url("./ASSETS/Idk.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2rem;
+  color: aliceblue;
+  font-weight: 800;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+}
+
+li:hover {
+  text-decoration: underline;
+  font-size: 2.5rem;
+  transition: 1s;
+}
+
+.LandingContent {
+  color: aliceblue;
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20rem;
+  padding-left: 10rem;
+}
+
+.LocationMap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  padding-top: 20rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-bottom: 5rem;
+}
+
+.Map {
+  border-radius: 2rem;
+}
+
+.MapContact {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+h2 {
+  color: aliceblue;
+  font-weight: 800;
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+}
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutContent {
+  width: 80vw;
+  text-align: center;
+  color: aliceblue;
+  font-weight: 800;
+  display: inline-block;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 3rem;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: aliceblue;
+  border-radius: 3rem;
+  background-color: rgb(0, 0, 0, 0.2);
+  margin: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-color: aliceblue;
+  border-width: 0.2rem;
+  border-style: solid;
+}
+
+button:hover {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.Gallery {
+  text-align: center;
+  color: aliceblue;
+  padding: 5rem;
+}
+.Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.items1 {
+  height: 60rem;
+  width: 40rem;
+  background-image: url("./ASSETS/pexels-francesco-ungaro-3100361.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+.items2 {
+  height: 60rem;
+  width: 40rem;
+  background-image: url("./ASSETS/pexels-eric-chen-6702557.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+.items3 {
+  height: 60rem;
+  width: 40rem;
+  background-image: url("./ASSETS/pexels-francesco-ungaro-3635910.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+a i {
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-instagram:hover {
+  color: #ca3e90;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.Copyright {
+  text-align: center;
+  padding: 2rem;
+  color: rgb(156, 203, 245);
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+/* Contact Me Page */
+
+.CoursesHeader {
+  background-image: url("./ASSETS/pexels-elianne-dipp-4666754.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+.Courses {
+  font-size: 6rem;
+  margin: 5rem;
+}
